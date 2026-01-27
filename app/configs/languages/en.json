@@ -1,0 +1,17 @@
+{
+  "app": {
+    "name": "App"
+  },
+  "menu": {
+    "home": "Home",
+    "settings": "Configs",
+    "help": "Help"
+  },
+  "home": {
+    "title": "Wellcome to App"
+  },
+  "settings": {
+    "title": "Configs",
+    "language": "Language"
+  }
+}

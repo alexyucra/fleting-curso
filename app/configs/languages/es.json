@@ -1,0 +1,17 @@
+{
+  "app": {
+    "name": "App"
+  },
+  "menu": {
+    "home": "Inicio",
+    "settings": "Configuración",
+    "help": "Ayuda"
+  },
+  "home": {
+    "title": "Bienvenido a App"
+  },
+  "settings": {
+    "title": "Configuración",
+    "language": "Idioma"
+  }
+}
