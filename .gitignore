@@ -1,1 +1,7 @@
 pyproject.toml
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.cpython-*.pyc
+*.sqlite3
+*.db
