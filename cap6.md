@@ -197,6 +197,13 @@ fleting db migrate
 migrations/
 
 # 5️⃣ Validar datos insertados en el banco
+
+# 6 verificar estado de las migraciones
+fleting db status
+
+# 7 reverter migraciones, esto debe volver un paso atraz.
+fleting db rollback
+fleting db status # verificar nuevamente despues de reverter.
 ```
 
 ### BONUS: ejemplo de insercion de usuarios por comando interactivo:
