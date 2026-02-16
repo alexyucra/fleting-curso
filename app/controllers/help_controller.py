@@ -7,7 +7,7 @@ class HelpController:
     '''
 
     def __init__(self, model=None):
-        self.model = model or HelpModel()
+        self.model = model or HelpModel
 
     def get_title(self):
         return "Help"

@@ -2,21 +2,12 @@
 
 ```shell
 # 1️⃣ iniciar estructura de banco de dados
-fleting db migrate
+fleting db init
 
 # 2️⃣ Crear nueva migracion
-fleting db make create_users
 fleting db make create_posts
 
 #' edita los archivos de migración'
-
-# 3️⃣ Ejecutar migrations:
-fleting db migrate
-
-# 4️⃣ Verificar archivos en:
-migrations/
-
-# 5️⃣ Validar datos insertados en el banco
 ```
 
 ## Ejercicios: 💻 Código Base Mejorado con Casos Reales
@@ -196,6 +187,16 @@ def down(db):
     db.execute('DROP INDEX IF EXISTS idx_posts_user')
     db.execute('DROP TABLE IF EXISTS posts')
     db.execute('DROP TABLE IF EXISTS categories')
+```
+
+```shell
+# 3️⃣ Ejecutar migrations:
+fleting db migrate
+
+# 4️⃣ Verificar archivos en:
+migrations/
+
+# 5️⃣ Validar datos insertados en el banco
 ```
 
 ### BONUS: ejemplo de insercion de usuarios por comando interactivo:

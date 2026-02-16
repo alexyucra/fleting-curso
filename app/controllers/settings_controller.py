@@ -7,7 +7,7 @@ class SettingsController:
     '''
 
     def __init__(self, model=None):
-        self.model = model or SettingsModel()
+        self.model = model or SettingsModel
 
     def get_title(self):
         return "Settings"

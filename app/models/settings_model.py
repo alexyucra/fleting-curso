@@ -1,4 +1,5 @@
 
-class SettingsModel:
-    def __init__(self):
-        pass
+from core.base_model import BaseModel
+
+class SettingsModel(BaseModel):
+    table_name = "settings"

@@ -1,0 +1,1 @@
+@"C:\Users\ThinkPad\AppData\Local\pypoetry\Cache\virtualenvs\curso-fleting-mM9P-F7b-py3.11\Scripts\fleting.exe" %*

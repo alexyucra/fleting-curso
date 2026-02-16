@@ -1,4 +1,5 @@
 
-class HelpModel:
-    def __init__(self):
-        pass
+from core.base_model import BaseModel
+
+class HelpModel(BaseModel):
+    table_name = "help"

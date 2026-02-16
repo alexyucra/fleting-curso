@@ -2,16 +2,13 @@
 import flet as ft
 from views.layouts.main_layout import MainLayout
 from controllers.help_controller import HelpController
-from models.help_model import HelpModel
 from flet import UrlLauncher
 
 class HelpView:
     def __init__(self, page, router):
         self.page = page
         self.router = router
-
-        self.model = HelpModel()
-        self.controller = HelpController(self.model)
+        self.controller = HelpController()
         self.url_launcher = UrlLauncher()
     
     async def open_docs(self, e):
